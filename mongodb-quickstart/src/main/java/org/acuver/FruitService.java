@@ -42,7 +42,5 @@ public class FruitService {
     private MongoCollection getCollection() {
         return mongoClient.getDatabase("fruit").getCollection("fruit");
     }
-
-
     
 }
